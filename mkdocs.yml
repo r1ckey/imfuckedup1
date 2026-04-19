@@ -1,7 +1,6 @@
 site_name: DE Learning Journey
 site_description: データエンジニアとしての学習ノート - Python × Databricks × dbt
 site_author: DE Learner
-site_url: https://YOUR_GITHUB_USERNAME.github.io/de-learning-journey/
 
 theme:
   name: material
@@ -37,10 +36,6 @@ theme:
 plugins:
   - search:
       lang: ja
-  - blog:
-      blog_dir: blog
-      post_date_format: yyyy年MM月dd日
-      post_url_format: "{date}/{slug}"
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -89,10 +84,4 @@ nav:
     - Azure DE Associate: certifications/azure_de.md
   - プロジェクト:
     - 競馬研究: projects/keiba.md
-  - ブログ:
-    - blog/index.md
-
-extra:
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/YOUR_GITHUB_USERNAME
+  - 学習日記: blog/index.md
