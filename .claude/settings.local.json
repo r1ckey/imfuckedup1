@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C /c/Users/jorda/Documents/Claude_Code/study17 status)",
+      "Bash(pip install:*)",
+      "Bash(mkdocs build:*)"
+    ]
+  }
+}

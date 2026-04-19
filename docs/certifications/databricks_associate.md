@@ -248,7 +248,7 @@ REVOKE SELECT ON TABLE catalog.schema.table FROM user@example.com;
 ## 学習リソース
 
 - Databricks Academy（無料の公式ラーニングパス）
-- [前回作成済みのポッドキャスト学習ノート](../../) を活用
+- Databricks Academy（無料の公式ラーニングパス）のノートブックを活用
 - 模擬試験：Databricks公式の Practice Exam
 
 !!! tip "合格の目安"
